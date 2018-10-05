@@ -300,7 +300,13 @@ call s:HL('StartifyHeader', s:n2)
 call s:HL('StartifyFooter', s:n2)
 
 " }}}
+" Signify: {{{
 
+hi! link SignifySignAdd OlaNormalBold
+hi! link SignifySignChange OlaCool
+hi! link SignifySignDelete OlaOrange
+
+" }}}
 
 " Filetypes:
 " Html: {{{
