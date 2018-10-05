@@ -302,9 +302,9 @@ call s:HL('StartifyFooter', s:n2)
 " }}}
 " Signify: {{{
 
-hi! link SignifySignAdd OlaNormalBold
-hi! link SignifySignChange OlaCool
-hi! link SignifySignDelete OlaOrange
+call s:HL('SignifySignAdd', s:n2, s:none)
+call s:HL('SignifySignChange', s:n2, s:none)
+call s:HL('SignifySignDelete', s:watermelon, s:none)
 
 " }}}
 
