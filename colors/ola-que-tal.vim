@@ -249,27 +249,26 @@ call s:HL('Keyword', s:salmon)
 " }}}
 
 " Plugin Support:
-" OrdLisp {{{
+" Sybil {{{
+
+call s:HL('SybilFunction', s:n2)
+call s:HL('SybilExtSymb', s:n1, s:none, s:italic)
+call s:HL('SybilExtFunSymb', s:n2, s:none, s:italic)
+call s:HL('SybilFunName', s:nailpolish, s:none, s:italic)
 
 
-call s:HL('OLispFunction', s:n2)
-call s:HL('OLispExtSymb', s:n1, s:none, s:italic)
-call s:HL('OLispExtFunSymb', s:n2, s:none, s:italic)
-call s:HL('OLispFunName', s:nailpolish, s:none, s:italic)
+call s:HL('SybilDefSymb', s:lips)
+hi! link SybilExtDefSymb OLispDefSymb
 
+call s:HL('SybilLLI', s:lipstick)
+call s:HL('SybilWSymb', s:blondegreen)
+hi! link SybilExtWSymb OLispWSymb
 
-call s:HL('OLispDefSymb', s:lips)
-hi! link OLispExtDefSymb OLispDefSymb
+hi! link SybilTodo Todo
 
-call s:HL('OLispLLI', s:lipstick)
-call s:HL('OLispWSymb', s:blondegreen)
-hi! link OLispExtWSymb OLispWSymb
-
-hi! link OLispTodo Todo
-
-hi! link OLispComment Comment
-hi! link OLispKey Keyword
-hi! link OLispString String
+hi! link SybilComment Comment
+hi! link SybilKey Keyword
+hi! link SybilString String
 
 
 " }}}
