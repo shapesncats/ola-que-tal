@@ -49,7 +49,7 @@ let s:lipstick = '#FE7F9C'
 let s:lips = '#E3759B'
 
 let s:ayeblue = '#A1ACD0'
-let s:blondegreen = '#9EC0A3'
+let s:blondegreen = '#FFD1C1'
 
 
 " }}}
